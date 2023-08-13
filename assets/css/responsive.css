@@ -1,0 +1,1206 @@
+/*Extra Big screen :1200px. */
+@media (min-width: 1501px) and (max-width: 1800px) {
+    .num_prop {
+        overflow: auto;
+    }
+
+    .overview_blk {
+        max-height: 550px;
+    }
+
+    .ove_top h3 {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    h3 {
+        font-size: var(--f22);
+    }
+
+    .prop-blk h3 {
+        font-size: var(--f18);
+    }
+
+    .my_propertie tbody tr span {
+        font-size: var(--f18);
+    }
+
+    .my_propertie tbody tr td a.thm_btn {
+        font-size: 16px;
+    }
+
+    .side_nav ul li a {
+        font-size: var(--f18);
+    }
+
+    .side_nav {
+        max-width: 310px;
+        padding-left: 30px;
+    }
+
+    main section {
+        width: calc(100% - 300px);
+    }
+
+    .setting-Area {
+        padding: 30px 40px 0;
+        padding-right: 20px;
+    }
+
+    footer {
+        width: calc(100% - 310px);
+        max-width: calc(100% - 310px);
+    }
+
+    .Renewals .owl-nav {
+        top: -85px;
+        font-size: 24px;
+    }
+}
+
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .nav_wrp .bar {
+        display: block;
+    }
+
+    .num_prop {
+        overflow: auto;
+    }
+
+    .overview_blk {
+        max-height: 550px;
+    }
+
+    .ove_top h3 {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    h3 {
+        font-size: var(--f22);
+    }
+
+    .prop-blk h3 {
+        font-size: var(--f18);
+    }
+
+    .my_propertie tbody tr span {
+        font-size: var(--f18);
+    }
+
+    .my_propertie tbody tr td a.thm_btn {
+        font-size: 16px;
+    }
+
+    .side_nav ul li a {
+        font-size: var(--f18);
+    }
+
+    .side_nav {
+        max-width: 310px;
+        padding-left: 30px;
+        left: -330px;
+    }
+
+    main section {
+        width: calc(100% - 0px);
+        padding: 30px 10px 0;
+    }
+
+    footer {
+        width: calc(100% - 0px);
+        max-width: calc(100% - 0px);
+        height: 80px;
+    }
+
+    .src_box:hover input {
+        width: 300px;
+        left: -300px;
+        z-index: 3;
+    }
+
+    .src_box:hover a {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .src_box a {
+        border-radius: 10px;
+    }
+
+    .Renewals .owl-nav {
+        top: -85px;
+        font-size: 24px;
+    }
+
+    .src_box input {
+        position: absolute;
+        left: 0;
+        width: 0px;
+        z-index: -1;
+    }
+
+    .setting_nav ul li a {
+        font-size: 20px;
+    }
+
+    .input_blk label {
+        font-size: 20px;
+    }
+
+    .input-item {
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .input-item input {
+        font-size: 18px;
+    }
+
+    .input_wrp {
+        gap: 10px 20px;
+    }
+
+    .select_box .nice-select {
+        font-size: 18px;
+    }
+
+    .submit-sett {
+        font-size: 18px;
+    }
+
+    .com_logo a {
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .com_logo i {
+        width: 200px;
+        height: 200px;
+    }
+
+    .com_logo i img {
+        max-width: 110px;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    :root {
+        --f18: 16px;
+        --f22: 20px;
+        --f24: 21px;
+        --f26: 22px;
+        --f30: 26px;
+    }
+
+    .header-area {
+        padding: 12px 0;
+    }
+
+    .nav_wrp .bar {
+        display: block;
+    }
+
+    .num_prop {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    .num_prop ul {
+        margin-top: 20px;
+    }
+
+    .overview_blk {
+        max-height: 550px;
+    }
+
+    .ove_top h3 {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    h3 {
+        font-size: var(--f22);
+    }
+
+    .prop-blk h3 {
+        font-size: var(--f18);
+    }
+
+    .my_propertie tbody tr span {
+        font-size: var(--f18);
+    }
+
+    .Renewals .owl-nav {
+        top: -80px;
+        font-size: 22px;
+    }
+
+    .my_propertie tbody tr td a.thm_btn {
+        font-size: 16px;
+    }
+
+    .side_nav ul li a {
+        font-size: var(--f18);
+    }
+
+.side_nav ul li a.active {
+    margin: 30px 0;
+}
+
+.Log_Out:after {
+    height: 90px;
+    bottom: -28px;
+}
+
+.Log_Out {
+}
+
+.side_nav ul li.home_ret a i {
+    left: 28px;
+}
+
+.side_nav ul li a:after {
+    height: 50px;
+    top: -14px;
+}
+
+    .side_nav ul li {
+        margin-bottom: 20px;
+    }
+
+    .side_nav ul li a img {
+        scale: .8;
+    }
+
+    .side_nav {
+        max-width: 310px;
+        padding-left: 20px;
+        left: -330px;
+        height: calc(100vh - 104px);
+    }
+
+    main section {
+        width: calc(100% - 0px);
+        padding: 30px 10px 0;
+    }
+
+    footer {
+        width: calc(100% - 0px);
+        max-width: calc(100% - 0px);
+        height: 80px;
+    }
+
+    .src_box:hover input {
+        width: 300px;
+        left: -300px;
+        z-index: 3;
+    }
+
+    .src_box:hover a {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .src_box a {
+        border-radius: 10px;
+        width: 68px;
+    }
+
+    .src_box input {
+        position: absolute;
+        left: 0;
+        width: 0px;
+        z-index: -1;
+    }
+
+    .user_wrp h4 {
+        display: none;
+    }
+
+    .rent_due div {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center !important;
+    }
+
+    .Lease_prop {
+        flex-direction: column;
+    }
+
+    .Lease_btn {
+        flex-direction: column;
+    }
+
+    .Lease_btn a {
+        margin: 5px 0;
+        width: 100%;
+    }
+
+    .Lease_cont h4 {
+        font-size: 20px;
+    }
+
+    .logo-area img {
+        width: 140px;
+    }
+
+    .header_content h1 {
+        font-size: 30px;
+    }
+
+    .add_btn {
+        width: 170px;
+        height: 65px;
+        gap: 10px;
+    }
+
+    .src_box {
+        height: 65px;
+    }
+
+    .src_box input {
+        position: absolute;
+        left: 0;
+        width: 0px;
+        z-index: -1;
+    }
+
+    .setting_nav ul li a {
+        font-size: 20px;
+    }
+
+    .input_blk label {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .input-item {
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .input-item input {
+        font-size: 18px;
+    }
+
+    .input_wrp {
+        gap: 10px 20px;
+    }
+
+    .select_box .nice-select {
+        font-size: 18px;
+        height: 60px;
+    }
+
+    .submit-sett {
+        font-size: 16px;
+        padding: 20px 50px;
+        margin-top: 20px;
+    }
+
+    .com_logo a {
+        height: 60px;
+        font-size: 18px;
+        width: 200px;
+    }
+
+    .com_logo i {
+        width: 172px;
+        height: 172px;
+    }
+
+    .com_logo i img {
+        max-width: 110px;
+    }
+
+    .setting-wrp:before {
+        height: 100px;
+    }
+
+    .setting_title {
+        height: 100px;
+    }
+
+    .setting-wrp:after {
+        height: 90px;
+        top: 100px;
+    }
+
+    .setting_nav {
+        height: 90px;
+    }
+
+    .setting_nav ul li a:after {
+        bottom: -33px;
+    }
+
+    .select_box .nice-select:after {
+        top: 24px;
+    }
+
+    .setting_content hr {
+        margin: 20px 0px 25px;
+    }
+
+    .select_box .nice-select .list li {
+        padding: 5px 20px;
+    }
+
+}
+
+
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    :root {
+        --f18: 16px;
+        --f22: 20px;
+        --f24: 21px;
+        --f26: 22px;
+        --f30: 26px;
+    }
+
+    .header-area {
+        padding: 12px 0;
+    }
+
+    .nav_wrp .bar {
+        display: block;
+    }
+
+    .num_prop {
+        padding-bottom: 0;
+    }
+
+    .num_prop ul {
+        margin-top: 20px;
+    }
+
+    .overview_blk {
+        max-width: 470px;
+        margin-inline: auto;
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+    .ove_top h3 {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    h3 {
+        font-size: var(--f22);
+    }
+
+    .Renewals .owl-nav {
+        top: -80px;
+        font-size: 22px;
+    }
+
+    .prop-blk h3 {
+        font-size: var(--f18);
+    }
+
+    .my_propertie tbody tr span {
+        font-size: var(--f18);
+    }
+
+    .my_propertie tbody tr td a.thm_btn {
+        font-size: 16px;
+    }
+
+    .side_nav ul li a {
+        font-size: var(--f18);
+    }
+
+.side_nav ul li.home_ret a {
+    padding-left: 45px;
+    margin-left: 2px;
+}
+
+.side_nav ul li a.active {
+    margin: 25px 0;
+}
+
+.side_nav ul li a:after {
+    height: 50px;
+    margin: 43px 0;
+}
+
+    .side_nav ul li {
+        margin-bottom: 20px;
+    }
+
+    .side_nav ul li a img {
+        scale: .8;
+    }
+
+    .side_nav {
+        max-width: 310px;
+        padding-left: 20px;
+        left: -330px;
+        height: calc(100vh - 85px);
+    }
+
+    .Log_Out:after {
+        height: 90px;
+        bottom: -29px;
+    }
+
+    main section {
+        width: calc(100% - 0px);
+        padding: 30px 10px 0;
+    }
+
+    footer {
+        width: calc(100% - 0px);
+        max-width: calc(100% - 0px);
+        height: 80px;
+    }
+
+    .src_box:hover input {
+        width: 275px;
+        left: -275px;
+        z-index: 3;
+    }
+
+    .src_box:hover a {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .src_box a {
+        border-radius: 10px;
+        width: 68px;
+    }
+
+    .src_box input {
+        position: absolute;
+        left: 0;
+        width: 0px;
+        z-index: -1;
+    }
+
+    .user_wrp h4 {
+        display: none;
+    }
+
+    .rent_due div {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center !important;
+    }
+
+    .Lease_btn {
+        gap: 10px;
+    }
+
+    .Lease_btn a {
+        margin: 5px 0;
+        width: 100%;
+    }
+
+    .Lease_cont h4 {
+        font-size: 20px;
+    }
+
+    .logo-area img {
+        width: 140px;
+    }
+
+    .header_content h1 {
+        font-size: 28px;
+    }
+
+    .header_content {
+        gap: 29px;
+        padding-left: 35px;
+    }
+
+    .add_btn {
+        width: 150px;
+        height: 55px;
+        gap: 5px;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+
+    .src_box {
+        height: 55px;
+    }
+
+    .user_wrp i {
+        width: 60px;
+        height: 60px;
+    }
+
+    .my_table {
+        overflow: auto;
+    }
+
+    .my_table table {
+        min-width: 1100px;
+    }
+
+    .footer_content p {
+        font-size: 14px;
+    }
+
+    .setting_nav ul li a {
+        font-size: var(--f22);
+    }
+
+    .setting-wrp:after {
+        height: 90px;
+        top: 95px;
+    }
+
+    .setting_title {
+        height: 95px;
+    }
+
+    .setting_nav ul li a:after {
+        bottom: -34px;
+    }
+
+    .setting_content_top {
+        gap: 60px;
+        align-items: center;
+    }
+
+    .setting_content_top .input_wrp .input_blk {
+        flex: 0 0 100%;
+    }
+
+    .setting_nav ul li a {
+        font-size: 16px;
+    }
+
+    .input_blk label {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .input-item {
+        height: 55px;
+        font-size: 20px;
+    }
+
+    .input-item input {
+        font-size: 16px;
+        padding-left: 20px;
+    }
+
+    .input-item a {
+        right: 20px;
+    }
+
+    .input_wrp {
+        gap: 20px 20px;
+    }
+
+
+    .select_box .nice-select {
+        font-size: 16px;
+        height: 55px;
+    }
+
+    .submit-sett {
+        font-size: 16px;
+        padding: 20px 50px;
+        margin-top: 20px;
+    }
+
+    .com_logo a {
+        height: 60px;
+        font-size: 18px;
+        width: 200px;
+    }
+
+    .com_logo i {
+        width: 172px;
+        height: 172px;
+    }
+
+    .com_logo i img {
+        max-width: 110px;
+    }
+
+    .setting-wrp:before {
+        height: 90px;
+    }
+
+    .setting_title {
+        height: 90px;
+    }
+
+    .setting-wrp:after {
+        height: 75px;
+        top: 90px;
+    }
+
+    .setting_nav {
+        height: 75px;
+    }
+
+    .setting_nav ul li a:after {
+        bottom: -29px;
+    }
+
+    .select_box .nice-select:after {
+        top: 24px;
+    }
+
+    .setting_content hr {
+        margin: 20px 0px 25px;
+    }
+
+    .select_box .nice-select .list li {
+        padding: 5px 20px;
+    }
+
+    .login_btn {
+        font-size: 18px;
+        height: 60px;
+        width: 150px;
+    }
+
+    .login-content h1 {
+        font-size: 34px;
+    }
+
+    .signUp-content p {
+        font-size: 26px;
+        max-width: 450px;
+    }
+
+}
+
+
+
+
+/* small screen :320px. */
+@media (max-width: 767px) {
+    :root {
+        --f18: 16px;
+        --f22: 18px;
+        --f24: 20px;
+        --f26: 22px;
+        --f30: 23px;
+    }
+
+    .header-area {
+        padding: 12px 0;
+    }
+
+    .nav_wrp .bar {
+        display: block;
+    }
+
+    .num_prop {
+        padding-bottom: 0;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .num_prop ul {
+        margin-top: 20px;
+    }
+
+    .overview_blk {
+        max-width: 470px;
+        margin-inline: auto;
+        margin-bottom: 30px;
+        height: auto;
+        max-height: unset;
+    }
+
+    .ove_top h3 {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    h3 {
+        font-size: var(--f22);
+    }
+
+    .prop-blk h3 {
+        font-size: var(--f18);
+    }
+
+    .my_propertie tbody tr span {
+        font-size: var(--f18);
+    }
+
+    .my_propertie tbody tr td a.thm_btn {
+        font-size: 16px;
+    }
+
+    .side_nav ul li a {
+        font-size: var(--f18);
+    }
+
+.side_nav ul li.home_ret a {
+    padding-left: 40px;
+    margin-left: 3px;
+}
+
+.side_nav ul li a.active {
+    margin: 26px 0;
+}
+
+.side_nav ul li a:after {
+    height: 50px;
+}
+
+    .side_nav ul li {
+        margin-bottom: 20px;
+    }
+
+    .side_nav ul li a img {
+        scale: .8;
+    }
+
+    .side_nav {
+        max-width: 310px;
+        padding-left: 15px;
+        left: -330px;
+        height: calc(100vh - 85px);
+    }
+
+    .Log_Out:after {
+        height: 90px;
+        bottom: -29px;
+    }
+
+    main section {
+        width: calc(100% - 0px);
+        padding: 30px 10px 0;
+    }
+
+    footer {
+        width: calc(100% - 0px);
+        max-width: calc(100% - 0px);
+        height: 80px;
+    }
+
+    .src_box:hover input {
+        width: 275px;
+        left: -275px;
+        z-index: 3;
+    }
+
+    .src_box:hover a {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .src_box a {
+        border-radius: 10px;
+        width: 68px;
+    }
+
+    .src_box input {
+        position: absolute;
+        left: 0;
+        width: 0px;
+        z-index: -1;
+    }
+
+    .user_wrp h4 {
+        display: none;
+    }
+
+    .rent_due div {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center !important;
+    }
+
+    .Lease_prop {
+        flex-direction: column;
+    }
+
+    .Lease_btn {
+        gap: 10px;
+    }
+
+    .Lease_btn a {
+        margin: 5px 0;
+        width: 100%;
+    }
+
+    .Lease_cont h4 {
+        font-size: 20px;
+    }
+
+    .logo-area img {
+        width: 140px;
+    }
+
+    .header_content h1 {
+        font-size: 28px;
+    }
+
+    .header_content {
+        gap: 29px;
+        padding-left: 35px;
+    }
+
+    .add_btn {
+        width: 150px;
+        height: 55px;
+        gap: 5px;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+
+    .src_box {
+        height: 55px;
+    }
+
+    .user_wrp i {
+        width: 60px;
+        height: 60px;
+    }
+
+    .my_table {
+        overflow: auto;
+    }
+
+    .my_table table {
+        min-width: 1100px;
+    }
+
+    .footer_content p {
+        font-size: 14px;
+    }
+
+    .card .number h3 {
+        font-size: 60px;
+    }
+
+    .my_propertie thead tr th {
+        padding-bottom: 30px;
+    }
+
+    .my_propertie:before {
+        height: 80px;
+    }
+
+    .my_propertie tbody td {
+        padding: 10px 15px;
+    }
+
+    .progres_wrp .progress {
+        margin-top: 20px;
+        height: 18px;
+    }
+
+    .setting_nav {
+        overflow: auto;
+        height: 75px;
+        overflow-y: hidden;
+    }
+
+    .setting_nav ul {
+        min-width: 670px;
+    }
+
+    .setting_nav ul li a {
+        font-size: 15px;
+    }
+
+    .setting-wrp:after {
+        height: 70px;
+        top: 80px;
+    }
+
+    .setting_title {
+        height: 80px;
+    }
+
+    .setting_nav ul li a:after {
+        bottom: -23px;
+    }
+
+    .setting_content_top {
+        flex-direction: column;
+    }
+
+    .input_blk {
+        flex: 0 0 100%;
+    }
+
+
+    .setting_nav ul li a:after {
+        bottom: -29px;
+    }
+
+    .select_box .nice-select:after {
+        top: 24px;
+        width: 10px;
+        height: 10px;
+        right: 17px;
+        top: 21px;
+    }
+
+    .setting_content hr {
+        margin: 30px 0px 20px;
+    }
+
+    .select_box .nice-select .list li {
+        padding: 5px 20px;
+    }
+
+    .setting_nav ul li a:after {
+        bottom: -34px;
+    }
+
+    .setting_content_top {
+        gap: 60px;
+        align-items: center;
+    }
+
+    .setting_content_top .input_wrp .input_blk {
+        flex: 0 0 100%;
+    }
+
+    .setting_nav ul li a {
+        font-size: 16px;
+    }
+
+    .input_blk label {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .input-item {
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .input-item input {
+        font-size: 15px;
+        padding-left: 15px;
+        border-width: 1px;
+        padding-right: 40px;
+    }
+
+    .input-item a {
+        right: 12px;
+        scale: .8;
+        top: 20px;
+    }
+
+    .input_wrp {
+        gap: 20px 20px;
+    }
+
+
+    .select_box .nice-select {
+        font-size: 15px;
+        height: 50px;
+    }
+
+    .submit-sett {
+        font-size: 16px;
+        padding: 15px 40px;
+        margin-top: 20px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .com_logo a {
+        height: 54px;
+        font-size: 16px;
+        width: 170px;
+        margin-top: 20px;
+    }
+
+    .com_logo i {
+        width: 150px;
+        height: 150px;
+    }
+
+    .com_logo i img {
+        max-width: 60px;
+    }
+
+    .setting-wrp {
+        padding: 0 20px 30px;
+    }
+
+    .select_box .nice-select span {
+        padding-left: 0;
+    }
+
+    .select_box {
+        height: 50px;
+    }
+
+    .login_btn {
+        font-size: 16px;
+        height: 54px;
+        width: 128px;
+    }
+
+    .simpol-header {
+        padding: 15px 0 40px;
+    }
+
+    .login-content h1 {
+        font-size: 34px;
+    }
+
+    .login_form {
+        padding: 25px;
+    }
+
+    .login_blk input {
+        height: 60px;
+        font-size: 16px;
+    }
+
+    .login_blk i {
+        bottom: 20px;
+    }
+
+    .login_blk_btn {
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .login_btn_grp a {
+        height: 55px;
+        gap: 10px;
+        align-items: center;
+        display: flex;
+        font-size: 16px;
+    }
+
+    .signUp-content p {
+        font-size: 20px;
+        max-width: 330px;
+    }
+
+    .signUp-content>i {
+        scale: .7;
+        margin-bottom: 0;
+    }
+
+    .Renewals .owl-nav {
+        top: -75px;
+        font-size: 22px;
+    }
+
+
+}
+
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+
+}
